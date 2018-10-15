@@ -7,7 +7,7 @@ With rviz up and running and visualizing MarkerArray at `/visualization_marker_a
 
 1. `rosrun py_viz_marker vizhandler.py -namespace my_viz -rate 50`
 
-2.`rosservice call /add_marker "label: 'asd'
+2.`rosservice call /my_viz/add_marker "label: 'asd'
 marker:
   header:
     frame_id: 'map'
