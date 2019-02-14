@@ -20,3 +20,5 @@ marker:
 
 ## Note
 Internally we use the labels as ID's for the markers. This means that you can overwrite a marker by setting the same label, or remove it by referencing the label.
+
+Inspired by [viz_marker](https://gitlab.mech.kuleuven.be/rob-expressiongraphs/viz_marker) by Erwin Aertbeliën. 
