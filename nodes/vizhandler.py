@@ -57,6 +57,7 @@ class VisualizationHandler(object):
             del self.markers[req.label]
         return srvs.RemoveMarkerResponse()
 
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Node to publish "
